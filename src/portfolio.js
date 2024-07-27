@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rego",
+  title: "Hi all, I'm Renugopal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 having experience in building Web applications and AI Solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Q_JA2itQgHtmNsFN4VWK0YY-CphrC4SA/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/regostar",
+  linkedin: "https://www.linkedin.com/in/renugopal-siva/",
+  gmail: "renugopal.sp@gmail.com",
+  medium: "https://medium.com/@renugopal17-siva",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +47,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I Solve Problems in the Tech Space!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop extensive web applications using Django, FastAPI, Flask, Node JS, React, Javascript, and more."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Machine Learning Models and AI Applications using Pytorch, Tensorflow, Keras, Scikit-Learn, and more."
+    ),
+    emoji("⚡ Chatbots using Gemini, ChatGPT, and more.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -126,23 +124,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "University of North Texas",
+      logo: require("./assets/images/unt.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "Aug 2023 - May 2025",
+      desc: "Participated in AI research and published 1 paper.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Machine Learning, Computer Security, Big Data and Data Science"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Visvesvaraya Technological University",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Bachelor of Engineering in Computer Science",
+      duration: "July 2014 - July 2018",
+      desc: "Ranked top 10% in the program. ",
+      descBullets: ["Took courses about Software Engineering, Web Security, Operating Systems, ..."]
     }
   ]
 };
@@ -153,15 +150,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Backend Engineering and System Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Machine Learning",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Cloud Computing and MLOps",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +171,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      role: "Senior Software Engineer / Tech Lead",
+      company: "Impact Analytics",
+      companylogo: require("./assets/images/ia.jpg"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Spearheaded the development of Multi-Million Dollar worth AI-driven analytics tools using Python, FastAPI, Tensorflow, and JavaScript.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Achieved a remarkable 40% increase in client profits by optimizing inventory costs using predictive AI Algorithms.",
+        "Orchestrated a vital software architecture change effort, ultimately driving an exceptional revenue surge exceeding $2 million in its inaugural year."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Senior Software Developer",
+      company: "Zelthy",
+      companylogo: require("./assets/images/zelthy.jpg"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Engineered an AI-driven patient program management application for top pharmaceutical clients such as Novartis, and AstraZeneca.",
+
+      descBullets: [
+        "Utilized Python, Django, and AWS to develop and deploy machine learning models that predicted patient adherence to medication schedules, enhancing treatment outcomes."
+      ]
     },
+
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Full Stack Developer",
+      company: "Alien Technology Transfer",
+      companylogo: require("./assets/images/alien.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Spearheaded the development of 'Typewiser', a project management and grant application tool enhanced with AI functionalities. Utilized Python, JavaScript, and Django to integrate machine learning algorithms that automated text analysis and proposal customization based on historical data patterns.",
+      descBullets: [
+        "helped  clients secure over €10 million in public funding",
+        "a prototype into a market-ready AI-powered tool within 6 months"
+      ]
     }
   ]
 };
@@ -213,28 +219,41 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "My Learning never stops after work",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/eventique.png"),
+      projectName: "Eventique",
+      projectDesc: "AI assisted Event Management Suite",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/regostar/eventique"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/fidus.jpeg"),
+      projectName: "Fiduswriter",
+      projectDesc:
+        "Fidus Writer is an online collaborative editor especially made for academics who need to use citations and/or formulas.",
+      footerLink: [
+        {
+          name: "Fiduswriter",
+          url: "https://github.com/regostar/fiduswriter"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/eda.jpg"),
+      projectName: "Exploratory Data Analysis",
+      projectDesc: "US Accidents Data",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/regostar/us_accidents_eda"
         }
       ]
     }
@@ -252,50 +271,50 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Scientific Computing and Python for Data Science",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "World Quant University",
+      image: require("./assets/images/wqu.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://wqu.thedataincubator.com/certificate/6180578369994752"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Prompt Engineering for ChatGPT",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Vanderbilt University",
+      image: require("./assets/images/prompt.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://www.coursera.org/account/accomplishments/records/GASN4VSXLJ3A"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Django Proficiency",
+      subtitle: "CutShort",
+      image: require("./assets/images/django.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://cutshort.io/certificate/2897"
         }
       ]
     }
@@ -312,16 +331,14 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://renugopal17-siva.medium.com/dunder-magic-variables-b999e76f6200",
+      title: "Dunder Magic Variables",
+      description: "Exploring interview questions on Dunder Variables in Python"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://renugopal17-siva.medium.com/iot-mqtt-payload-encryption-at-the-application-layer-58f8957d4b5f",
+      title: "IOT-MQTT Payload encryption at the Application Layer",
+      description: "MQTT Payload encryption for IOT applications"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +360,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +373,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +389,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  // number: "+92-0000000000",
+  email_address: "renugopal.sp@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
