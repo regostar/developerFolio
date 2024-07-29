@@ -139,7 +139,9 @@ const educationInfo = {
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "July 2014 - July 2018",
       desc: "Ranked top 10% in the program. ",
-      descBullets: ["Took courses about Software Engineering, Web Security, Operating Systems, ..."]
+      descBullets: [
+        "Took courses about Software Engineering, Web Security, Operating Systems, ..."
+      ]
     }
   ]
 };
@@ -174,7 +176,7 @@ const workExperiences = {
       role: "Senior Software Engineer / Tech Lead",
       company: "Impact Analytics",
       companylogo: require("./assets/images/ia.jpg"),
-      date: "June 2018 – Present",
+      date: "Aug 2021 – Aug 2023",
       desc: "Spearheaded the development of Multi-Million Dollar worth AI-driven analytics tools using Python, FastAPI, Tensorflow, and JavaScript.",
       descBullets: [
         "Achieved a remarkable 40% increase in client profits by optimizing inventory costs using predictive AI Algorithms.",
@@ -185,7 +187,7 @@ const workExperiences = {
       role: "Senior Software Developer",
       company: "Zelthy",
       companylogo: require("./assets/images/zelthy.jpg"),
-      date: "May 2017 – May 2018",
+      date: "Nov 2020 – Aug 2021",
       desc: "Engineered an AI-driven patient program management application for top pharmaceutical clients such as Novartis, and AstraZeneca.",
 
       descBullets: [
@@ -197,7 +199,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Alien Technology Transfer",
       companylogo: require("./assets/images/alien.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "July 2018 to Nov 2020",
       desc: "Spearheaded the development of 'Typewiser', a project management and grant application tool enhanced with AI functionalities. Utilized Python, JavaScript, and Django to integrate machine learning algorithms that automated text analysis and proposal customization based on historical data patterns.",
       descBullets: [
         "helped  clients secure over €10 million in public funding",
@@ -272,15 +274,14 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Scientific Computing and Python for Data Science",
-      subtitle:
-        "World Quant University",
+      subtitle: "World Quant University",
       image: require("./assets/images/wqu.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://wqu.thedataincubator.com/certificate/6180578369994752"
-        },
+        }
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -293,8 +294,7 @@ const achievementSection = {
     },
     {
       title: "Prompt Engineering for ChatGPT",
-      subtitle:
-        "Vanderbilt University",
+      subtitle: "Vanderbilt University",
       image: require("./assets/images/prompt.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
