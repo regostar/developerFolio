@@ -204,7 +204,7 @@ const workExperiences = {
       desc: "Spearheaded the development of 'Typewiser', a project management and grant application tool enhanced with AI functionalities. Utilized Python, JavaScript, and Django to integrate machine learning algorithms that automated text analysis and proposal customization based on historical data patterns.",
       descBullets: [
         "Helped  clients secure over €10 million in public funding",
-        "A prototype into a market-ready AI-powered tool within 6 months"
+        "A prototype into a market-ready AI-powered tool within 6 months."
       ]
     }
   ]
