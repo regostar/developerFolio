@@ -179,8 +179,8 @@ const workExperiences = {
       date: "Aug 2021 – Aug 2023",
       desc: "Spearheaded the development of Multi-Million Dollar worth AI-driven analytics tools using Python, FastAPI, Tensorflow, and JavaScript.",
       descBullets: [
-        "Achieved a remarkable 40% increase in client profits by optimizing inventory costs using predictive AI Algorithms.",
-        "Orchestrated a vital software architecture change effort, ultimately driving an exceptional revenue surge exceeding $2 million in its inaugural year."
+        "Generated $ 2 Million in Revenue by developing a completely new product from scratch.",
+        "The product success won a place in Forbes 100 most Innovative Companies in USA."
       ]
     },
     {
@@ -191,7 +191,8 @@ const workExperiences = {
       desc: "Engineered an AI-driven patient program management application for top pharmaceutical clients such as Novartis, and AstraZeneca.",
 
       descBullets: [
-        "Utilized Python, Django, and AWS to develop and deploy machine learning models that predicted patient adherence to medication schedules, enhancing treatment outcomes."
+        "Integrated the ELK stack (Elasticsearch, Logstash, Kibana) and reduced issue identification time to under a minute.",
+        "Optimized ORM queries which reduced the system’s response time by 50%"
       ]
     },
 
@@ -202,8 +203,8 @@ const workExperiences = {
       date: "July 2018 to Nov 2020",
       desc: "Spearheaded the development of 'Typewiser', a project management and grant application tool enhanced with AI functionalities. Utilized Python, JavaScript, and Django to integrate machine learning algorithms that automated text analysis and proposal customization based on historical data patterns.",
       descBullets: [
-        "helped  clients secure over €10 million in public funding",
-        "a prototype into a market-ready AI-powered tool within 6 months"
+        "Helped  clients secure over €10 million in public funding",
+        "A prototype into a market-ready AI-powered tool within 6 months"
       ]
     }
   ]
@@ -249,7 +250,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/eda.jpg"),
+      image: require("./assets/images/acc.jpg"),
       projectName: "Exploratory Data Analysis",
       projectDesc: "US Accidents Data",
       footerLink: [
@@ -308,7 +309,7 @@ const achievementSection = {
     {
       title: "Django Proficiency",
       subtitle: "CutShort",
-      image: require("./assets/images/django.jpg"),
+      image: require("./assets/images/dj.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
