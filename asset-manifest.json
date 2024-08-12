@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.6d19d52a.css",
-    "main.js": "/developerFolio/static/js/main.f168fcb9.js",
+    "main.js": "/developerFolio/static/js/main.25cdb69d.js",
     "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
@@ -10,8 +10,8 @@
     "static/media/wqu.png": "/developerFolio/static/media/wqu.58e0e71a910687e2eda2.png",
     "static/media/prompt.png": "/developerFolio/static/media/prompt.26c380497fe6ab351046.png",
     "static/media/Montserrat-Regular.ttf": "/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/django.jpg": "/developerFolio/static/media/django.f4fe941c7ef4428a4529.jpg",
-    "static/media/eda.jpg": "/developerFolio/static/media/eda.ab706bd2b44440495704.jpg",
+    "static/media/dj.jpg": "/developerFolio/static/media/dj.4ac23a65134df2059b83.jpg",
+    "static/media/acc.jpg": "/developerFolio/static/media/acc.ff799a7c315a151e3acf.jpg",
     "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/developerFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -24,7 +24,7 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.6d19d52a.css.map": "/developerFolio/static/css/main.6d19d52a.css.map",
-    "main.f168fcb9.js.map": "/developerFolio/static/js/main.f168fcb9.js.map",
+    "main.25cdb69d.js.map": "/developerFolio/static/js/main.25cdb69d.js.map",
     "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.6d19d52a.css",
-    "static/js/main.f168fcb9.js"
+    "static/js/main.25cdb69d.js"
   ]
 }
