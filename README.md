@@ -5,6 +5,10 @@ https://regostar.github.io/developerFolio/
 ## A clean, beautiful and responsive portfolio template for Developers!
 
 
+## To deploy on Github pages
+
+https://github.com/gitname/react-gh-pages
+
 
 <p align="center">
   <kbd>
