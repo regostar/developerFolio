@@ -386,3 +386,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
+## STEPS TO RUN 
+
+npm install
+
+npm start
+
+gh-pages -d build
+
+npm run deploy
