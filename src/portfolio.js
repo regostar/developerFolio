@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Engineer 🚀 specializing in LLM, AI powered web apps."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Q_JA2itQgHtmNsFN4VWK0YY-CphrC4SA/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/178n-KJ9WN8zgd08mNsjqkX1AYG8XP6Hr/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
