@@ -23,7 +23,7 @@ const greeting = {
   username: "Rego",
   title: "Hi all, I'm Renugopal",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 having experience in building Web applications and AI Solutions."
+    "A passionate Software Engineer 🚀 specializing in LLM, AI powered web apps."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1Q_JA2itQgHtmNsFN4VWK0YY-CphrC4SA/view?usp=sharing", // Set to empty to hide the button
@@ -47,15 +47,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I Solve Problems in the Tech Space!",
+  subTitle: "I Solve Problems in the AI domain!",
   skills: [
+    emoji("⚡ Complex LLM Integrations using Langchain, OpenAI, Gemini, llama and more."),
     emoji(
       "⚡ Develop extensive web applications using Django, FastAPI, Flask, Node JS, React, Javascript, and more."
     ),
     emoji(
       "⚡ Machine Learning Models and AI Applications using Pytorch, Tensorflow, Keras, Scikit-Learn, and more."
     ),
-    emoji("⚡ Chatbots using Gemini, ChatGPT, and more.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -152,15 +152,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend Engineering and System Design", //Insert stack or technology you have experience in
+      Stack: "AI Engineering", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Machine Learning",
+      Stack: "Backend Development",
       progressPercentage: "70%"
     },
     {
-      Stack: "Cloud Computing and MLOps",
+      Stack: "Machine Learning",
       progressPercentage: "60%"
     }
   ],
@@ -236,21 +236,35 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    // {
+    //   image: require("./assets/images/fidus.jpeg"),
+    //   projectName: "Fiduswriter",
+    //   projectDesc:
+    //     "Fidus Writer is an online collaborative editor especially made for academics who need to use citations and/or formulas.",
+    //   footerLink: [
+    //     {
+    //       name: "Fiduswriter",
+    //       url: "https://github.com/regostar/fiduswriter"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
     {
-      image: require("./assets/images/fidus.jpeg"),
-      projectName: "Fiduswriter",
+      image: require("./assets/images/clairvoyant.png"),
+      projectName: "Clairvoyant",
       projectDesc:
-        "Fidus Writer is an online collaborative editor especially made for academics who need to use citations and/or formulas.",
+        "Streamlit-based web application for viewing and forecasting stock prices along with a chatbot. It allows users to visualize historical stock data and make future predictions using Facebook's Prophet model.",
       footerLink: [
         {
-          name: "Fiduswriter",
-          url: "https://github.com/regostar/fiduswriter"
+          name: "Clairvoyant",
+          url: "https://github.com/regostar/streamlit_stocks"
         }
         //  you can add extra buttons here.
       ]
     },
+    
     {
-      image: require("./assets/images/acc.jpg"),
+      image: require("./assets/images/eda_w.png"),
       projectName: "Exploratory Data Analysis",
       projectDesc: "US Accidents Data",
       footerLink: [
@@ -307,15 +321,15 @@ const achievementSection = {
     },
 
     {
-      title: "Django Proficiency",
-      subtitle: "CutShort",
-      image: require("./assets/images/dj.jpg"),
-      imageAlt: "PWA Logo",
+      title: "LLM Skills",
+      subtitle: "Datacamp",
+      image: require("./assets/images/llm.png"),
+      imageAlt: "LLM",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://cutshort.io/certificate/2897"
+          url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/0fa084e90a3d9b2b7eab4fd4bd148cc79d8f345f"
         }
       ]
     }
