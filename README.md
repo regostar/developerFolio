@@ -392,6 +392,8 @@ npm install
 
 npm start
 
-gh-pages -d build
-
 npm run deploy
+
+(this in turn does -
+gh-pages -d build
+)
