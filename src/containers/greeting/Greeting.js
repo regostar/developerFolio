@@ -45,6 +45,7 @@ export default function Greeting() {
                     download="Resume.pdf"
                     className="download-link-button"
                   >
+                     {/* src\containers\greeting\resume.pdf  */}
                     <Button text="Download my resume" />
                   </a>
                 )}
